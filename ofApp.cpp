@@ -137,7 +137,7 @@ void ofApp::draw() {
 
 		ofRotate(rotAngle);
 
-		imgBuffer[i].drawSubsection(0, i, ofGetWidth(), 3, 0, i); // 5 corresponds to the width of the pixel line drawn, change that for thicker or thinner lines
+		imgBuffer[i].drawSubsection(0, i, ofGetWidth(), 5, 0, i); // 5 corresponds to the width of the pixel line drawn, change that for thicker or thinner lines
 
 
 	}
